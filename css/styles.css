@@ -33,6 +33,23 @@ body {
 #navbar-menu .dropdown-item.active, .dropdown-item:active, .dropdown-item:hover {
     background-color:  transparent !important;  /* Cambia el color a transparente de la propiedad active y hover en el item */
 }
+.floating-button {
+    position: fixed;
+    background: #CF4C1A;
+    
+    border-radius: 1em;
+    top: 10em;
+    right: 2em;
+    z-index: 100;
+}
+
+.floating-button button {
+    font-size: 1.6em;
+    color: #fbfbfb !important;
+}
+.sticky-menu{
+    background: #833617;
+}
 .tilular{
 margin-left: 5%;
 margin-right: 5%;
@@ -78,12 +95,16 @@ color: #91121A !important;
         margin-left: 0em;
         margin-right: 0em;
         }
+        .img-producto{
+            max-width: 95% !important;
+        }
 }
 .btn-ordenar{
     border-radius: 1em;
 background: #CF4C1A;
 color: #fbfbfb;
 }
+
      /*=========================================================*/
  /* Footer*/
 

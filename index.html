@@ -19,7 +19,7 @@
 <body>
     <!-- Page Content -->
     <div class="content-page">
-        <nav id="navbar-menu" class="navbar navbar-expand-lg navbar-toggleable-md shadow sticky-top">
+        <nav id="navbar-menu" class="navbar navbar-expand-lg navbar-toggleable-md shadow">
             <div class="container-fluid mx-4 text-white">
                 <a class="navbar-brand text-white" href="#">
                     <img src="./img/logos/logo-regional.svg" alt="Logo Cervecería Regional" width="81" height="50"
@@ -55,6 +55,12 @@
                 </div>
             </div>
         </nav>
+        <!-- Botón flotante con icono de teclado -->
+        <div class="floating-button shadow">
+            <button class="btn" id="stickyButton">
+                <i class="fas fa-keyboard"></i> <!-- Ajusta la clase del icono según tu preferencia -->
+            </button>
+        </div>
         <div class="d-flex justify-content-center">
             <img class="img-fluid img-shadow img-logo" src="./img/logos/logo-regional.svg"
                 alt="Logo Cervecería Regional" width="150" height="150">
@@ -154,14 +160,14 @@
                                     <div class="carousel-item justify-content-center aling-items-center active"
                                         data-bs-interval="10000">
                                         <img src="./img/promociones/Cerveza Zulia Retornable 222ml.png"
-                                            class="img-card-top d-block mx-auto my-auto" alt="..." width="225px"
-                                            height="247">
+                                            class="img-card-top img-producto d-block mx-auto my-auto" alt="..."
+                                            width="225px" height="247">
                                     </div>
                                     <div class="carousel-item justify-content-center aling-items-center"
                                         data-bs-interval="2000">
                                         <img src="./img/promociones/Cerveza Zulia lata 222ml.png"
-                                            class="img-card-top d-block mx-auto my-auto" alt="..." width="225px"
-                                            height="247">
+                                            class="img-card-top img-producto d-block mx-auto my-auto" alt="..."
+                                            width="225px" height="247">
                                     </div>
                                 </div>
                                 <button class="carousel-control-prev" type="button"
@@ -194,14 +200,14 @@
                                     <div class="carousel-item justify-content-center aling-items-center active"
                                         data-bs-interval="10000">
                                         <img src="./img/promociones/Cerveza Zulia Retornable 222ml.png"
-                                            class="img-card-top d-block mx-auto my-auto" alt="..." width="225px"
-                                            height="247">
+                                            class="img-card-top img-producto d-block mx-auto my-auto" alt="..."
+                                            width="225px" height="247">
                                     </div>
                                     <div class="carousel-item justify-content-center aling-items-center"
                                         data-bs-interval="2000">
                                         <img src="./img/promociones/Cerveza Zulia lata 222ml.png"
-                                            class="img-card-top d-block mx-auto my-auto" alt="..." width="225px"
-                                            height="247">
+                                            class="img-card-top img-producto d-block mx-auto my-auto" alt="..."
+                                            width="225px" height="247">
                                     </div>
                                 </div>
                                 <button class="carousel-control-prev" type="button"
@@ -234,14 +240,14 @@
                                     <div class="carousel-item justify-content-center aling-items-center active"
                                         data-bs-interval="10000">
                                         <img src="./img/promociones/Cerveza Zulia Retornable 222ml.png"
-                                            class="img-card-top d-block mx-auto my-auto" alt="..." width="225px"
-                                            height="247">
+                                            class="img-card-top img-producto d-block mx-auto my-auto" alt="..."
+                                            width="225px" height="247">
                                     </div>
                                     <div class="carousel-item justify-content-center aling-items-center"
                                         data-bs-interval="2000">
                                         <img src="./img/promociones/Cerveza Zulia lata 222ml.png"
-                                            class="img-card-top d-block mx-auto my-auto" alt="..." width="225px"
-                                            height="247">
+                                            class="img-card-top img-producto d-block mx-auto my-auto" alt="..."
+                                            width="225px" height="247">
                                     </div>
                                 </div>
                                 <button class="carousel-control-prev" type="button"
@@ -274,14 +280,14 @@
                                     <div class="carousel-item justify-content-center aling-items-center active"
                                         data-bs-interval="10000">
                                         <img src="./img/promociones/Cerveza Zulia Retornable 222ml.png"
-                                            class="img-card-top d-block mx-auto my-auto" alt="..." width="225px"
-                                            height="247">
+                                            class="img-card-top img-producto d-block mx-auto my-auto" alt="..."
+                                            width="225px" height="247">
                                     </div>
                                     <div class="carousel-item justify-content-center aling-items-center"
                                         data-bs-interval="2000">
                                         <img src="./img/promociones/Cerveza Zulia lata 222ml.png"
-                                            class="img-card-top d-block mx-auto my-auto" alt="..." width="225px"
-                                            height="247">
+                                            class="img-card-top img-producto d-block mx-auto my-auto" alt="..."
+                                            width="225px" height="247">
                                     </div>
                                 </div>
                                 <button class="carousel-control-prev" type="button"
@@ -358,6 +364,19 @@
     </footer>
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
+    <script>
+        // Función de flecha para manejar el clic en el botón
+        const toggleStickyMenu = () => {
+            const navbar = document.getElementById("navbar-menu");
+            navbar.classList.toggle("sticky-top");
+
+            const stickyButton = document.getElementById("stickyButton");
+            stickyButton.classList.toggle("sticky-menu");
+        };
+
+        // Añadir un evento de clic al botón
+        document.getElementById("stickyButton").addEventListener("click", toggleStickyMenu);
+    </script>
 </body>
 
 </html>
