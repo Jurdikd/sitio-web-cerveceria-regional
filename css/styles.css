@@ -40,6 +40,12 @@ body {
 margin-left: 12.8em;
 margin-right: 12.8em;
 }
+@media (max-width: 767px) {
+    .tilular{
+        margin-left: 0em;
+        margin-right: 0em;
+        }
+}
 .img-logo{
     margin-top: 7.1em;
 }
