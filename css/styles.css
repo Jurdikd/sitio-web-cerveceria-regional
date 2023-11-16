@@ -71,6 +71,17 @@ color: #91121A !important;
 .text-big{
     font-size: 4.8em;
 }
+.card-producto{
+    background: linear-gradient(226deg, rgba(240, 240, 240, 0.70) 33.84%, #D2D2D2 92.7%) !important;
+    box-shadow: -7px 7px 16px 0px rgba(48, 21, 4, 0.50) !important;
+
+}
+@media (max-width: 767px) {
+    .tilular{
+        margin-left: 0em;
+        margin-right: 0em;
+        }
+}
 .btn-ordenar{
     border-radius: 1em;
 background: #CF4C1A;
@@ -85,7 +96,7 @@ color: #fbfbfb;
 	width: 100%;
 	bottom: 0 !important;
     padding-top: 1.6em;
-	background: rgba(124, 124, 124, 0.20);
+	background-color: #D8661F;
 	font-family: "Open Sans", sans-serif;
 }
 /* Colores de iconos*/
@@ -104,7 +115,7 @@ color: #fbfbfb;
 	font-size: 1.6em;
 }
 .footer-ul li a {
-	color: #a0a3a4;
+	color: #f1f1f1;
 	transition: color 0.2s linear 0s, background 0.2s linear 0s;
 }
 .footer-ul i {
@@ -112,7 +123,7 @@ color: #fbfbfb;
 }
 .footer-ul li a:hover {
 	transition: color 0.2s linear 0s, background 0.2s linear 0s;
-	color: #ff670f;
+	color: #91121A;
 }
 
 .fb-page a:hover {
