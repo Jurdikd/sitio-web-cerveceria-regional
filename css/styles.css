@@ -71,6 +71,11 @@ color: #91121A !important;
 .text-big{
     font-size: 4.8em;
 }
+.btn-ordenar{
+    border-radius: 1em;
+background: #CF4C1A;
+color: #fbfbfb;
+}
      /*=========================================================*/
  /* Footer*/
 
