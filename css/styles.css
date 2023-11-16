@@ -1,0 +1,172 @@
+body {
+   background-color: #F5F5F5;
+    
+    margin: 0;
+    background-size: cover; /* Hace que la imagen de fondo cubra todo el fondo */
+    font-family: 'Montserrat', sans-serif; /* Aplica la fuente Inter al cuerpo del documento */
+    font-size: 10px;
+}
+
+/* conetent page*/
+.content-page {
+	min-height: calc(100vh - 3.6em - 3.6em) !important;
+}
+#navbar-menu {
+    background-color: #D8661F;
+    font-size: 1.6em;
+}
+
+#navbar-menu .navbar-nav .nav-link {
+    color: #FFF !important;
+}
+
+#navbar-menu.navbar-light .navbar-toggler {
+    color: #fff;
+    background-color: #fff;
+}
+
+#navbar-menu .navbar-nav .nav-item.dropdown .dropdown-menu {
+    background-color: #08080c9d; /* Establece el fondo del menú desplegable como transparente */
+    border: none; /* Quita el borde del menú desplegable */
+}
+
+#navbar-menu .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item {
+    color: #fff !important; /* Cambia el color del texto en el menú desplegable */
+}
+#navbar-menu .dropdown-item.active, .dropdown-item:active, .dropdown-item:hover {
+    background-color:  transparent !important;  /* Cambia el color a transparente de la propiedad active y hover en el item */
+}
+.tilular{
+margin-left: 12.8em;
+margin-right: 12.8em;
+}
+.img-logo{
+    margin-top: 7.1em;
+}
+.text-red{
+color: #91121A !important;
+}
+.shadow{
+    box-shadow: -7px 7px 16px 0px rgba(48, 21, 4, 0.50) !important;
+}
+.img-shadow{
+    object-fit: cover;
+    filter: drop-shadow(-7px 7px 16px 0px rgba(48, 21, 4, 0.50))
+}
+.text-regular{
+    font-size: 1.6em;
+}
+.text-md{
+    font-size: 2em;
+}
+.text-lg{
+    font-size: 2.4em
+}
+.text-big{
+    font-size: 4.8em;
+}
+     /*=========================================================*/
+ /* Footer*/
+
+ #footer {
+	/*position: fixed;*/
+	left: 0;
+	width: 100%;
+	bottom: 0 !important;
+    padding-top: 1.6em;
+	background: rgba(124, 124, 124, 0.20);
+	font-family: "Open Sans", sans-serif;
+}
+/* Colores de iconos*/
+.__footer-titles{
+    font-size: 2.4em;
+    color: #fff;
+}
+.footer-ul {
+	list-style-type: none;
+	padding-left: 0px;
+    text-decoration: none !important;
+    
+}
+.footer-ul li {
+	line-height: 29px;
+	font-size: 1.6em;
+}
+.footer-ul li a {
+	color: #a0a3a4;
+	transition: color 0.2s linear 0s, background 0.2s linear 0s;
+}
+.footer-ul i {
+	margin-right: 1em;
+}
+.footer-ul li a:hover {
+	transition: color 0.2s linear 0s, background 0.2s linear 0s;
+	color: #ff670f;
+}
+
+.fb-page a:hover {
+	transition: color 0.2s linear 0s, background 0.2s linear 0s;
+	color: whitesmoke !important;
+}
+
+.icon-ul {
+	list-style-type: none !important;
+	margin: 0px;
+	padding: 0px;
+}
+.icon-ul li {
+	line-height: 75px;
+	width: 100%;
+	float: left;
+}
+.icon {
+	float: left;
+	margin-right: 5px;
+}
+
+.copyright {
+	min-height: 40px;
+}
+.copyright p {
+	text-align: left;
+	color: #fff;
+	margin-bottom: 0px;
+}
+
+.post p span {
+	display: block;
+	color: #fbfbfb;
+}
+.bottom_ul {
+	list-style-type: none;
+	float: right;
+	margin-top: 8em !important;
+}
+.bottom_ul li {
+	float: left;
+	line-height: 40px;
+}
+.bottom_ul li:after {
+	content: "/";
+	color: #fff;
+	margin-right: 8px;
+	margin-left: 8px;
+}
+.bottom_ul li a {
+	color: #fff;
+	font-size: 1.6em;
+}
+.rrss{
+    display: flex;
+}
+.btn-rrss{
+    font-size: 3.2em !important;
+    margin: 0.5em 0.2em 0.5em 0.5em;
+    text-decoration: none;
+    color: #fbfbfb;
+
+}
+.copyright-end{
+    padding: 1.6em;
+    font-size: 2.4em;
+}
