@@ -60,6 +60,10 @@ margin-right: 5%;
         margin-right: 0em;
         }
 }
+.section{
+    margin-top: 3rem!important;
+    margin-bottom: 3rem!important;
+}
 .img-logo{
     margin-top: 7.1em;
 }
