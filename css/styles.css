@@ -129,6 +129,16 @@ color: #fbfbfb;
 .img-cover{
     object-fit: cover !important;
 }
+.card-testimonials{
+    background: linear-gradient(226deg, rgba(240, 240, 240, 0.70) 33.84%, #D2D2D2 92.7%) !important;
+    box-shadow: -7px 7px 16px 0px rgba(48, 21, 4, 0.50) !important;
+    border-radius: 1em;
+   border: none !important;
+}
+.img-testimonial{
+    width: 20em !important;
+    height: 20em !important;
+}
 @media (max-width: 767px) {
     .img-events{
         height: 77% !important;
