@@ -140,7 +140,6 @@ color: #fbfbfb;
     height: 20em;
     
 }
-
 @media (max-width: 767px) {
     .img-events{
         height: 77% !important;
@@ -151,6 +150,14 @@ color: #fbfbfb;
         
     }
 }
+.card-aboutus{
+    background: linear-gradient(226deg, rgba(240, 240, 240, 0.70) 33.84%, #D2D2D2 92.7%) !important;
+    box-shadow: -7px 7px 16px 0px rgba(48, 21, 4, 0.50) !important;
+    border-radius: 1em;
+   border: none !important;
+}
+
+
 
      /*=========================================================*/
  /* Footer*/
