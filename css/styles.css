@@ -157,7 +157,48 @@ color: #fbfbfb;
    border: none !important;
 }
 
+.social-card {
+    background: linear-gradient(226deg, rgb(235 91 20 / 70%) 33.84%, #83360c 92.7%) !important;
+    box-shadow: -7px 7px 16px 0px rgba(48, 21, 4, 0.50) !important;
+    border-radius: 1em;
+   border: none !important;
+   
+}
 
+
+
+.social-card .card-body {
+    padding: 1.25rem;
+    position: relative;
+}
+
+.social-card h5 {
+    margin-bottom: 10px;
+}
+
+.instagram-icon {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    font-size: 2.5em;
+    color: #405DE6;
+    cursor: pointer;
+}
+
+.ripple {
+    position: absolute;
+    border-radius: 50%;
+    transform: scale(0);
+    animation: ripple-animation 0.8s linear infinite;
+}
+
+@keyframes ripple-animation {
+    to {
+        transform: scale(4);
+        opacity: 0;
+    }
+}
 
      /*=========================================================*/
  /* Footer*/
