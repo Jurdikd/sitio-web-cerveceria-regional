@@ -137,11 +137,18 @@ color: #fbfbfb;
 }
 .img-testimonial{
     width: 20em !important;
-    height: 20em !important;
+    height: 20em;
+    
 }
+
 @media (max-width: 767px) {
     .img-events{
         height: 77% !important;
+    }
+    .img-testimonial{
+        max-width: 99% !important;
+        height: 80%;
+        
     }
 }
 
